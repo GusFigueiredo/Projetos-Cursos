@@ -1,0 +1,143 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(176, 216, 178);
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(0deg,rgba(9, 89, 9, 1) 0%, rgba(37, 179, 37, 1) 68%);
+}
+
+header > h1 {
+    font-size: 2.4em;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+header > p {
+    margin-top: 15px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+nav {
+    padding: 8px;
+    background-color: rgba(9, 89, 9, 1);
+    box-shadow: 0px 10px 100px black;
+}
+
+nav > a {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+nav > a:hover{
+    color: black;
+    background-color: rgb(176, 216, 178);
+}
+
+main {
+    padding: 20px;
+    min-width: 280px;
+    max-width: 800px;
+
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 5px 10px black;
+}
+
+article > h1 {
+    padding: 10px;
+    padding-bottom: 5px;
+    color: green;
+}
+
+article > h2 {
+    padding: 2px;
+    margin-left: 10px;
+    color: green;
+    background: linear-gradient(90deg,#9af59f 20%, rgb(255, 255, 255) 60%);
+}
+
+article > p {
+    text-indent: 35px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.imgPequena {
+    margin: auto;
+    display: block;
+    max-width: 350px;
+}
+
+.video {
+    background-color: rgba(9, 89, 9, 1);
+    margin-bottom: 30px;
+    margin: 0px -20px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(176, 216, 178);
+}
+
+aside > h3 {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p {
+    text-indent: 35px;
+    padding: 15px;
+}
+
+aside> ul {
+    padding: 15px;
+    text-align: left;
+    list-style-type: "✔";
+    list-style: inside;
+    columns: 2;
+}
+
+
+li{
+    margin-left: 10px;
+}
+
+footer {
+    background-color: rgba(9, 89, 9, 1);
+    padding: 10px
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
