@@ -53,7 +53,7 @@ p {
 }
 
 section#verso2{
-    background: white url(/Cordel/imagens/background001.jpg)  right center no-repeat fixed;
+    background: white url(./Cordel/imagens/background001.jpg)  right center no-repeat fixed;
     background-size: cover;
 }
 
@@ -64,7 +64,7 @@ section#verso2 > p {
 }
 
 section#verso5{
-    background: white url(/Cordel/imagens/background002.jpg)  center center  no-repeat fixed;
+    background: white url(./Cordel/imagens/background002.jpg)  center center  no-repeat fixed;
     background-size: cover;
 }
 
