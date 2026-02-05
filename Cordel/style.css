@@ -40,7 +40,7 @@ main{
     margin: auto
 }
 section {
-    background-color: antiquewhite;
+    background-color: rgb(235, 232, 230);
     padding: 50px;
     line-height: 6vw;
 }
@@ -53,7 +53,7 @@ p {
 }
 
 section#verso2{
-    background: white url(/desafio/Desafio12/imagens/background001.jpg)  right center no-repeat fixed;
+    background: white url(/Cordel/imagens/background001.jpg)  right center no-repeat fixed;
     background-size: cover;
 }
 
@@ -64,7 +64,7 @@ section#verso2 > p {
 }
 
 section#verso5{
-    background: white url(/desafio/Desafio12/imagens/background002.jpg)  center center  no-repeat fixed;
+    background: white url(/Cordel/imagens/background002.jpg)  center center  no-repeat fixed;
     background-size: cover;
 }
 
