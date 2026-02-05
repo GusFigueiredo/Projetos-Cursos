@@ -1,0 +1,86 @@
+.petit-formal-script-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1 {
+    margin: auto;
+    font-size: 8vw;
+    color:white
+}
+header > p{
+    font-weight: normal;
+    color:white
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+main{
+    margin: auto
+}
+section {
+    background-color: antiquewhite;
+    padding: 50px;
+    line-height: 6vw;
+}
+
+p {
+    font-weight: bold;
+    font-size: 4vw;
+    padding: 20px;
+    color: black;
+}
+
+section#verso2{
+    background: white url(/desafio/Desafio12/imagens/background001.jpg)  right center no-repeat fixed;
+    background-size: cover;
+}
+
+section#verso2 > p {
+    color: white;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+section#verso5{
+    background: white url(/desafio/Desafio12/imagens/background002.jpg)  center center  no-repeat fixed;
+    background-size: cover;
+}
+
+section#verso5 > p {
+    color: white;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+}
+
+footer > p {
+    font-weight: normal;
+    font-size: 3vw;
+    color:  white;
+}
