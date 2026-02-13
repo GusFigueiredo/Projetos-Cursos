@@ -6,3 +6,4 @@ Projetos que eu realizei durante os meus estudos
 
 ## 🔗 Links
 https://gusfigueiredo.github.io/Projetos-Cursos/Android/
+https://gusfigueiredo.github.io/Projetos-Cursos/Cordel/
